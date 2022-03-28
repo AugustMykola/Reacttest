@@ -1,0 +1,12 @@
+@import './variables.scss';
+
+* {
+  font-family: $roboto;
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 18px
+};
+
+#root {
+  height: 100%;
+};

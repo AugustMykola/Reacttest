@@ -1,0 +1,35 @@
+.favorites__wrapper{
+  width: 100%;
+  height: 100;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.error{
+  width: 30%;
+  height: 30%;
+  font-size: 30px;
+  margin:3% auto;
+
+}
+
+
+@media screen and (max-width:768px){
+  .favorites__wrapper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.adssa{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,71 @@
+@import '../../styles/variables.scss';
+
+.dish__wrapper{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
+.dish__container-mega{
+  margin: 5% auto;
+  background-color: white;
+  border-radius: 10px;
+  width: 40%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dish__body{
+  background: #F8F8F8;
+  padding:5%;
+  width:100%;
+} 
+
+.dish__body-image{
+width: 100%;
+height: 50%;
+margin: 1% 0;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+img{
+
+  width: 100%;
+  height: auto;
+}
+
+.dish__body-title{
+  width: 100%;
+  height: 15%;
+  margin: 1% 0;
+}
+
+.dish__body-description{
+  text-align:justify;
+  width: 100%;
+  height: 35%;
+  margin: 4% 0;
+}
+
+.dish__body-buttons{
+margin: 3% 0;
+display: flex;
+justify-content: space-around;;
+height: 10vh;
+align-items: center;
+
+button{
+  height: 80%;
+  width: 45%
+}
+}
+

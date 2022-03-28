@@ -1,0 +1,123 @@
+@import '../styles/variables.scss';
+
+a{
+  text-decoration: none;
+  color: $text-color;
+}
+li{
+  list-style-type:none;
+}
+
+button{
+  background-color: $headerBg;
+  outline: none; 
+  border: 0;
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
+.header{
+  background: $headerBg;
+  width: 100%;
+  padding: 0 1.5rem;
+  height: 8vh;
+}
+
+.header__content{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.header__content__logo{
+  font-weight: $headerWeight;
+  width: 25%
+
+}
+.header__content__nav{
+width: 50%
+}
+
+.header__content__list{
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: space-evenly;
+  padding: 0;
+  align-items: center;
+
+
+};
+
+.header__button_ceaper{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+.header__button{
+  background-color: $bottomBg;
+  width: 85%;
+  height:100%;
+  color: $text-color;
+  font-weight: 400;
+
+}
+
+.header__space_ceaper{
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+  background-color: $headerBg;
+}
+
+@media screen and (max-width:768px){
+
+  .header{
+    height: 100%;
+    text-align: center
+  }
+
+  .header__content{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  };
+
+  .header__content__logo{
+    width: 100%;
+  }
+
+  .header__content__nav{
+    width: 100%;
+    margin: 2% 0;
+    }
+
+    .header__button_ceaper{
+      width: 100%;
+    }
+
+
+    .header__button{
+
+      width: 65%;
+      height:10vh;
+
+      };
+
+      .header__content__list{
+        align-items: center;
+        height: 5vh;
+      };
+
+}
